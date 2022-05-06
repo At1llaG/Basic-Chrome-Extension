@@ -1,0 +1,12 @@
+{
+    "name": "Google Hue Background",
+    "description": "description",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {},
+    "content_scripts": [{
+        "matches": ["https://www.google.com/*"],
+        "css": ["main.css"],
+        "js": ["background.js"]
+    }]
+  }

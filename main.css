@@ -1,0 +1,10 @@
+:root{
+    --hue: 100;
+    --saturation: 50%;
+    --background-color: hsl(var(--hue), var(--saturation), 20%);
+}
+
+
+html body{
+    background-color: var(--background-color);
+} 
